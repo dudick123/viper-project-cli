@@ -1,0 +1,15 @@
+appProjectDir: "./projects"
+projectPrefixes:
+  - "foo"
+  - "bar"
+  - "biz"
+  - "baz"
+appProjectDirs:
+  - "./projects1"
+  - "./projects2"
+  - "/etc/argo-projects"
+projects:
+  - name: "Project A"
+    path: "./projects/project-a"
+  - name: "Project B"
+    path: "./projects/project-b"
